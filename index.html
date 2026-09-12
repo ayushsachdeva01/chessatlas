@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0d11">
+  <title>Chess Atlas — Tactical Training</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">♞</div>
+        <div><div class="brand-name">Chess Atlas</div><div class="brand-sub">MEMORY TRAINER</div></div>
+      </div>
+      <div class="nav-group">
+        <div class="side-section-label">LEARN</div>
+        <nav>
+          <button class="nav active" data-view="home"><span>⌂</span><b>Overview</b><i>01</i></button>
+          <button class="nav" data-view="openings"><span>♟</span><b>Opening Academy</b><i>02</i></button>
+          <button class="nav blindfold-nav" data-view="blindfold"><span>◉</span><b>Blindfold Mode</b><i>03</i></button>
+        </nav>
+      </div>
+      <div class="nav-group">
+        <div class="side-section-label">PRACTICE</div>
+        <nav>
+          <button class="nav" data-view="review"><span>↻</span><b>Review Queue</b><em id="reviewBadge">0</em></button>
+          <button class="nav" data-view="puzzles"><span>◇</span><b>Puzzle Lab</b><i>04</i></button>
+        </nav>
+      </div>
+      <div class="nav-group">
+        <div class="side-section-label">ANALYZE</div>
+        <nav>
+          <button class="nav" data-view="gamereview"><span>♜</span><b>Game Review</b><i>05</i></button>
+          <button class="nav" data-view="blindfoldArchive"><span>▤</span><b>Blindfold Archive</b><em id="blindfoldBadge">0</em></button>
+        </nav>
+      </div>
+      <div class="sidebar-bottom">
+        <div class="daily-card">
+          <div class="daily-top"><span>DAILY TARGET</span><strong id="todayCount">0</strong></div>
+          <div class="daily-label">reviews completed</div>
+          <div class="progress"><i id="todayProgress"></i></div>
+          <div class="daily-foot">Keep the chain moving.</div>
+        </div>
+        <div class="sidebar-foot">Progress stays in this browser.</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar" id="topbar">
+        <div>
+          <div class="eyebrow" id="eyebrow">TRAINING ROOM</div>
+          <h1 id="pageTitle">Build opening memory, not just a repertoire.</h1>
+        </div>
+        <button class="top-cta" id="topReview">Review due <span>→</span></button>
+      </header>
+
+      <section id="home" class="view active">
+        <div class="dashboard-hero">
+          <div class="hero-copy">
+            <div class="hero-kicker"><span class="status-dot"></span> POSITION-FIRST TRAINING</div>
+            <h2>Know <em>why</em> the move works.</h2>
+            <p>Chess Atlas turns opening theory into active recall. Learn the position, understand the plan, then prove you can reproduce the line without looking.</p>
+            <div class="hero-actions">
+              <button class="primary" id="startReview">Start today's review <span>→</span></button>
+              <button class="secondary" data-go="openings">Browse the academy</button>
+              <button class="secondary" data-go="blindfold">Enter blindfold mode <span>→</span></button>
+            </div>
+          </div>
+          <div class="hero-diagram" aria-hidden="true">
+            <div class="diagram-ring ring-a"></div><div class="diagram-ring ring-b"></div>
+            <div class="diagram-core">♔</div>
+            <span class="diagram-tag tag-a">RECALL</span><span class="diagram-tag tag-b">PLAN</span><span class="diagram-tag tag-c">REPEAT</span>
+          </div>
+        </div>
+
+        <div class="section-heading compact"><div><span class="eyebrow">YOUR NUMBERS</span><h3>Training at a glance</h3></div></div>
+        <div class="stats-grid">
+          <div class="stat-card"><span>Opening families</span><strong id="statOpenings">29</strong><small>core families in the academy</small></div>
+          <div class="stat-card"><span>Study lines</span><strong id="statLines">61</strong><small>each with move-by-move notes</small></div>
+          <div class="stat-card"><span>Mastered</span><strong id="statMastered">0</strong><small>lines at durable recall</small></div>
+          <div class="stat-card"><span>Puzzles</span><strong id="statPuzzles">—</strong><small id="puzzleStatSub">checking local database</small></div>
+        </div>
+
+        <div class="section-heading"><div><span class="eyebrow">NEXT UP</span><h3>A simple training loop</h3></div></div>
+        <div class="path-grid">
+          <button class="path-card" data-go="openings"><span class="step">01</span><div><b>Learn the position</b><p>Understand what every move is trying to accomplish.</p></div><span class="arrow">→</span></button>
+          <button class="path-card" id="pathReview"><span class="step">02</span><div><b>Recall the line</b><p>Play it from memory. Weak lines return sooner.</p></div><span class="arrow">→</span></button>
+          <button class="path-card" data-go="puzzles"><span class="step">03</span><div><b>Test the pattern</b><p>Use tactics to turn opening ideas into practical recognition.</p></div><span class="arrow">→</span></button>
+        </div>
+      </section>
+
+      <section id="openings" class="view">
+        <div id="openingBrowse">
+          <div class="page-intro-row">
+            <div><span class="eyebrow">OPENING ACADEMY</span><h2>Study openings by idea, not alphabet.</h2><p class="page-lede">Every family below has a strategic summary, core lines, and a move-by-move explanation for every move in those lines.</p></div>
+            <div class="academy-count"><strong id="academyLineCount">61</strong><span>study lines</span></div>
+          </div>
+          <div class="filter-bar">
+            <div class="search-box"><span>⌕</span><input id="openingSearch" placeholder="Search an opening or idea…"></div>
+            <select id="familyFilter"><option value="all">All first moves</option><option value="1.e4">1.e4</option><option value="1.d4">1.d4</option><option value="1.c4">1.c4</option><option value="1.Nf3">1.Nf3</option></select>
+          </div>
+          <div id="openingGrid" class="opening-grid"></div>
+        </div>
+        <div id="openingDetail" class="opening-detail" hidden></div>
+      </section>
+
+      <section id="review" class="view">
+        <div class="page-intro-row"><div><span class="eyebrow">SPACED REPETITION</span><h2>Review only what needs work.</h2><p class="page-lede">The queue is generated from your recall history. Missed lines come back sooner; mastered lines get out of the way.</p></div><button class="secondary" id="resetProgress">Reset progress</button></div>
+        <div class="review-summary"><div><strong id="reviewDueCount">0</strong><span>lines due now</span></div><div><strong id="reviewMasteredCount">0</strong><span>lines mastered</span></div><div><strong id="reviewCoverage">0%</strong><span>academy covered</span></div></div>
+        <div id="reviewList" class="review-list"></div>
+      </section>
+
+      <section id="puzzles" class="view">
+        <div class="page-intro-row"><div><span class="eyebrow">PUZZLE LAB</span><h2>Train a specific weakness.</h2><p class="page-lede">Filter by rating, motif, or opening. Chess Atlas pulls a matching puzzle from your local Lichess database.</p></div></div>
+        <div class="puzzle-filter-card">
+          <div class="filter-field"><label>RATING</label><select id="pRating"><option value="all">Any rating</option><option value="800-1200">800–1200</option><option value="1200-1600">1200–1600</option><option value="1600-2000">1600–2000</option><option value="2000-2400">2000–2400</option><option value="2400-9999">2400+</option></select></div>
+          <div class="filter-field"><label>MOTIF</label><select id="pTheme"><option value="all">Any theme</option><option value="fork">Fork</option><option value="pin">Pin</option><option value="sacrifice">Sacrifice</option><option value="mate">Mate</option><option value="discoveredAttack">Discovered attack</option><option value="endgame">Endgame</option></select></div>
+          <div class="filter-field"><label>OPENING</label><select id="pOpening"><option value="all">Any opening</option></select></div>
+          <button class="primary puzzle-start" id="startPuzzle">Start training <span>→</span></button>
+        </div>
+        <div class="puzzle-status-grid"><div><b id="puzzleCount">Checking…</b><span>matching puzzles</span></div><div><b>6M+</b><span>in the Lichess database</span></div><div><b>Local</b><span>nothing uploaded</span></div></div>
+        <div class="info-callout"><span class="callout-icon">i</span><div><b>How this works</b><p>Your Python server samples the local puzzle database and applies the filters above. No manual import step is needed once the CSV is beside <code>server.py</code>.</p></div></div>
+      </section>
+
+      <section id="blindfold" class="view">
+        <div class="blindfold-shell">
+          <div class="blindfold-hero">
+            <div>
+              <span class="eyebrow">BLINDFOLD TRAINING</span>
+              <h2>Play the position. See nothing.</h2>
+              <p class="page-lede">A completely text-only chess game. No board, no pieces, no visual coordinates — just your internal board and the moves.</p>
+            </div>
+            <div class="blindfold-mark"><span>♞</span><small>NO BOARD</small></div>
+          </div>
+          <div id="blindfoldSetup" class="bf-setup-card">
+            <div class="section-label-row"><span>NEW BLINDFOLD GAME</span><span>ALL GAMES SAVED LOCALLY</span></div>
+            <div class="bf-settings-grid">
+              <label><span>YOUR SIDE</span><select id="bfColor"><option value="w">White</option><option value="b">Black</option></select></label>
+              <label class="bf-elo-field"><span>OPPONENT ELO</span><div class="bf-elo-control"><input id="bfElo" type="range" min="100" max="2600" step="100" value="1600"><output id="bfEloValue">1600</output></div><small class="bf-range-note">100 — 2600</small></label>
+              <label><span>OPENING</span><select id="bfOpening"><option value="standard">Standard position</option><option value="random">Randomize first move</option></select></label>
+            </div>
+            <button class="primary bf-start" id="bfStart">Begin blindfold game <span>→</span></button>
+          </div>
+          <div id="blindfoldGame" class="bf-game" hidden>
+            <div class="bf-game-head">
+              <button class="back" id="bfBack">← Setup</button>
+              <div><span class="eyebrow" id="bfGameMeta">BLINDFOLD · 1600 ELO</span><h3 id="bfGameTitle">You are White</h3></div>
+              <div class="bf-strikes"><span>MISTAKES</span><strong id="bfStrikeCount">0 / 3</strong></div>
+            </div>
+            <div class="bf-status-card">
+              <div class="bf-turn-indicator"><i id="bfTurnDot"></i><div><span id="bfTurnLabel">YOUR TURN</span><strong id="bfTurnText">White to move</strong></div></div>
+              <div class="bf-last-move"><span>LAST MOVE</span><strong id="bfLastMove">—</strong></div>
+            </div>
+            <div class="bf-command-card">
+              <div class="bf-prompt"><span class="bf-prompt-symbol">⌁</span><div><span>ENTER MOVE</span><small>Use standard algebraic notation · e.g. Nf3, O-O, Qxd5+</small></div></div>
+              <div class="bf-input-row"><input id="bfMoveInput" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Your move…"><button class="secondary" id="bfSpeak" type="button">Speak move</button><button class="primary" id="bfSubmit">Play move <span>↵</span></button></div>
+              <div id="bfFeedback" class="bf-feedback" aria-live="polite"></div>
+            </div>
+            <div class="bf-board-safety" id="bfPeekCard" hidden>
+              <div><span class="eyebrow">RECOVERY</span><strong>That move was forgotten.</strong><p>You have two attempts left. You may use one <b>sneak peek</b> for this move only.</p></div>
+              <button class="secondary" id="bfPeek">Sneak peek <span>1×</span></button>
+            </div>
+            <div class="bf-history-card">
+              <div class="section-label-row"><span>GAME MEMORY</span><span id="bfMoveCount">0 plies</span></div>
+              <div id="bfMoveHistory" class="bf-move-history"><span class="bf-empty">Your moves will appear here after you play them.</span></div>
+            </div>
+            <div class="bf-footer-actions"><button class="secondary" id="bfResign">Resign game</button><span>Every attempted move — including mistakes — is recorded.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blindfoldArchive" class="view">
+        <div class="page-intro-row"><div><span class="eyebrow">BLINDFOLD ARCHIVE</span><h2>Your memory under pressure.</h2><p class="page-lede">Every blindfold game is preserved in this browser. Export it as JSON to move your archive to another device.</p></div><div class="bf-archive-actions"><button class="secondary" id="bfExportArchive">Export archive</button><label class="secondary" for="bfImportArchive">Import archive</label><input id="bfImportArchive" type="file" accept="application/json" hidden><button class="secondary" id="bfClearArchive">Delete all games</button></div></div>
+        <div id="bfArchiveSummary" class="bf-archive-summary"></div>
+        <div id="bfArchiveList" class="bf-archive-list"></div>
+        <div id="bfArchiveDetail" class="bf-archive-detail" hidden></div>
+      </section>
+
+      <section id="gamereview" class="view">
+        <div class="page-intro-row"><div><span class="eyebrow">GAME REVIEW</span><h2>Turn your games into a training plan.</h2><p class="page-lede">Fetch recent public Chess.com games, scan them with Stockfish, then study the exact moves that cost you.</p></div></div>
+        <div class="gr-connect-card"><div class="connect-copy"><span class="connect-icon">♜</span><div><b>Connect a public game history</b><span>Analysis stays on your machine.</span></div></div><div class="connect-controls"><input id="chesscomUsername" placeholder="Chess.com username"><select id="chesscomCount"><option value="10">Last 10 games</option><option value="20" selected>Last 20 games</option><option value="40">Last 40 games</option></select><button class="primary" id="loadGames">Load games <span>→</span></button></div></div>
+        <div class="status-line" id="grStatus">Enter your Chess.com username to load recent games.</div>
+        <div id="gamesListWrap" hidden>
+          <div class="subsection-head"><div><span class="eyebrow">RECENT GAMES</span><h3 id="gamesListTitle">Your recent games</h3></div><button class="secondary" id="analyzeAllGames">Scan for patterns <span>→</span></button></div>
+          <div id="gamesList" class="review-list"></div>
+        </div>
+        <div id="aggregateReport" hidden></div>
+        <div id="gameAnalysisWrap" hidden>
+          <div class="subsection-head"><button class="back" id="grBack">← Games</button><div id="grGameMeta" class="status-line"></div></div>
+          <div class="gr-layout">
+            <div class="board-panel">
+              <div id="reviewBoard" class="board"></div>
+              <div class="board-footer"><span id="grMoveLabel">Loading…</span><div class="footer-actions"><button class="secondary small" id="grPrev">← Prev</button><button class="secondary small" id="grNext">Next →</button><button class="secondary small" id="grFlip">Flip</button></div></div>
+              <div class="progress big"><i id="grProgress"></i></div>
+              <div id="grExplain" class="coach-card"><span class="coach-icon">✦</span><div><b id="grExplainTitle">Analyzing…</b><p id="grExplainText">Stockfish is walking through this game move by move.</p></div></div>
+            </div>
+            <div class="lesson-side"><div id="grSummary" class="analysis-summary-card"></div><div class="moves-card"><div class="card-head"><b>Move quality</b><span id="grMoveStatus">Click a move</span></div><div id="grMoveList" class="move-list gr-move-list"></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="lesson" class="view">
+        <div class="lesson-layout">
+          <div class="lesson-main">
+            <div class="lesson-header"><button class="back" id="lessonBack">← Academy</button><div class="lesson-title"><span class="eyebrow" id="lessonFamily"></span><h2 id="lessonName"></h2><span id="lessonVariant"></span></div><div class="master-pill" id="lessonMastery">0%</div></div>
+            <div class="lesson-board-card"><div id="board" class="board"></div><div class="board-footer"><span id="turnText">Your turn</span><div class="footer-actions"><button class="secondary small" id="flipBoard">Flip board</button><button class="secondary small" id="resetBoard">Reset line</button></div></div></div>
+          </div>
+          <aside class="lesson-side">
+            <div class="lesson-progress"><div><span>RECALL PROGRESS</span><b id="lineStep">1 / 1</b></div><div class="progress big"><i id="lineProgress"></i></div></div>
+            <div class="coach-card"><span class="coach-icon">✦</span><div><b id="coachTitle">Why this move?</b><p id="coachText">Play the position first. The explanation appears as you work through the line.</p></div></div>
+            <div class="moves-card"><div class="card-head"><b>Line</b><span id="moveStatus">Memory test</span></div><div id="moveList" class="move-list"></div></div>
+            <div class="theory-card"><div class="card-head"><b>Why the line works</b><span>THEORY</span></div><p id="lessonRemember"></p><div class="plan-grid"><div><span>WHITE</span><p id="lessonWhitePlan"></p></div><div><span>BLACK</span><p id="lessonBlackPlan"></p></div></div></div>
+            <div class="choice-row" id="ratingRow"><button data-grade="again" class="grade again">Again <small>10m</small></button><button data-grade="hard" class="grade hard">Hard <small>1d</small></button><button data-grade="good" class="grade good">Good <small>3d</small></button><button data-grade="easy" class="grade easy">Easy <small>7d</small></button></div>
+          </aside>
+        </div>
+        <div class="move-theory-section"><div class="section-heading"><div><span class="eyebrow">MOVE-BY-MOVE THEORY</span><h3>What every move is doing</h3><p>Use this after the recall attempt. Each study line has an explanation for every ply.</p></div></div><div id="moveTheoryList" class="move-theory-list"></div></div>
+      </section>
+
+      <section id="puzzleSession" class="view puzzle-workspace">
+        <div class="puzzle-topbar">
+          <button class="puzzle-back" id="puzzleBack"><span>←</span> Puzzle Lab</button>
+          <div class="puzzle-top-title"><span class="eyebrow">TACTICAL TRAINING</span><h2>Puzzle Training</h2><div id="puzzleMeta">—</div></div>
+        </div>
+
+        <div class="puzzle-session-grid">
+          <main class="puzzle-stage-new">
+            <div class="board-player-row top-player">
+              <div class="player-info-block"><div class="player-identity"><img id="topOpponentAvatar" src="assets/profile-avatar.svg" alt=""><div><strong id="topPlayerName">Opponent</strong><span id="topPlayerRating">— ELO</span></div></div><div class="captured-tray"><span class="captured-label">CAPTURED</span><div id="capturedBlack" class="captured-pieces"></div><span id="blackMaterial" class="material-count"></span></div></div>
+            </div>
+
+            <div class="board-zone-new">
+              <div class="eval-strip-new" id="evaluationBar"><div id="evaluationFill"></div><span id="evaluationText">—</span></div>
+              <div class="board-frame-new"><div id="puzzleBoard" class="board puzzle-board"></div></div>
+            </div>
+
+            <div class="board-player-row bottom-player">
+              <div class="player-info-block"><button class="player-identity editable" id="editProfile" type="button" title="Edit your name, ELO, and photo"><img data-profile-avatar src="assets/profile-avatar.svg" alt=""><div><strong data-profile-name>Carneceria07</strong><span><b data-profile-elo>1044 ELO</b> · YOU</span></div><span class="edit-hint">✎</span></button><div class="captured-tray"><span class="captured-label">CAPTURED</span><div id="capturedWhite" class="captured-pieces"></div><span id="whiteMaterial" class="material-count"></span></div></div>
+            </div>
+
+            <div class="puzzle-controls-new">
+              <div class="turn-state"><span class="turn-dot"></span><div><strong id="puzzleTurn">White to move</strong><small id="turnHint">Find the best move.</small></div></div>
+              <div class="control-cluster"><button class="control-btn" id="puzzlePrevMove" title="Previous position">←</button><button class="control-btn" id="puzzleNextMove" title="Next position">→</button><button class="control-btn" id="puzzleFlip">Flip</button><button class="control-btn" id="skipPuzzle">Skip</button><button class="next-btn" id="nextPuzzle">Next puzzle <span>→</span></button></div>
+            </div>
+          </main>
+
+          <aside class="puzzle-coach-panel">
+            <section class="session-card-new">
+              <div class="section-label-row"><span>SESSION</span><strong id="sessionCount">Puzzle 1 of 10</strong></div>
+              <div id="puzzleProgressDots" class="session-dots" aria-label="Puzzle session progress"></div>
+              <div class="session-legend"><span><i class="dot-green"></i> solved</span><span><i class="dot-red"></i> mistake</span><span><i class="dot-amber"></i> revealed</span></div>
+            </section>
+
+            <section class="coach-action-card">
+              <div class="coach-action-head"><span class="action-icon">♟</span><div><span class="section-label">YOUR TASK</span><h3 id="taskTitle">Find the best move</h3></div></div>
+              <p id="taskText">Calculate before touching a piece. The position is yours to solve.</p>
+              <div class="task-state" id="taskState">Your turn</div>
+            </section>
+
+            <section class="solution-card-new">
+              <div class="section-label-row"><span>SOLUTION</span><span id="solutionStateLabel">HIDDEN</span></div>
+              <div id="puzzleSolutionBox" class="solution-content-new"></div>
+              <button class="solution-btn-new" id="revealSolution" type="button">Show solution</button>
+            </section>
+
+            <section class="timeline-card-new">
+              <div class="section-label-row"><span>MOVE LIST</span><span>CLICK A MOVE TO REVIEW</span></div>
+              <div id="puzzleMoves" class="timeline-new"><div class="timeline-empty"><span>○</span><div><strong>Your line is empty</strong><small>Play a move and the sequence will appear here.</small></div></div></div>
+            </section>
+
+            <section class="analysis-card-new">
+              <div class="section-label-row"><span>ANALYSIS</span><div class="analysis-actions"><button class="analysis-mini-btn" id="engineToggle">Engine</button><button class="analysis-mini-btn" id="autoAnalysisToggle">Auto</button><button class="analysis-mini-btn" id="evalToggle">Eval bar</button><button class="analysis-mini-btn primary-analysis" id="analyzePosition">Analyze</button></div></div>
+              <div class="analysis-status" id="engineStatus">Ready</div>
+              <div id="analysisResult" class="analysis-new-result">Choose Analyze when you want Stockfish to calculate the current position.</div>
+            </section>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="profileModal" class="profile-modal" hidden>
+    <div class="profile-dialog" role="dialog" aria-modal="true" aria-labelledby="profileDialogTitle">
+      <button id="profileClose" class="profile-close" type="button" aria-label="Close">×</button>
+      <span class="eyebrow">PLAYER PROFILE</span>
+      <h2 id="profileDialogTitle">Your chess identity</h2>
+      <p>These details are stored locally in this browser and used across the puzzle workspace.</p>
+      <label>NAME<input id="profileNameInput" autocomplete="off"></label>
+      <label>ELO<input id="profileEloInput" inputmode="numeric" autocomplete="off"></label>
+      <label>PROFILE PHOTO<input id="profilePhotoInput" type="file" accept="image/*"></label>
+      <div class="profile-preview"><img data-profile-avatar src="assets/profile-avatar.svg" alt=""><div><strong data-profile-name>Carneceria07</strong><span data-profile-elo>1044 ELO</span></div></div>
+      <div class="profile-actions"><button id="profileCancel" class="control-btn" type="button">Cancel</button><button id="profileSave" class="next-btn" type="button">Save profile</button></div>
+    </div>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
