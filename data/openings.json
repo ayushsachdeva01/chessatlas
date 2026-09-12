@@ -1,0 +1,2048 @@
+[
+  {
+    "id": "italian",
+    "name": "Italian Game",
+    "eco": "C50–C54",
+    "family": "1.e4",
+    "difficulty": "Core",
+    "summary": "Classical development: rapid kingside castling, central pressure, and flexible plans.",
+    "tags": [
+      "e4",
+      "classical",
+      "open-game"
+    ],
+    "lines": [
+      {
+        "name": "Giuoco Piano",
+        "line": "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3 g8f6",
+        "idea": "Build pressure on e5, castle, and choose between c3/d4 or a quieter maneuvering setup.",
+        "overview": "Build pressure on e5, castle, and choose between c3/d4 or a quieter maneuvering setup.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays Bc4, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black plays Bc5, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "White plays d3, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "Build pressure on e5, castle, and choose between c3/d4 or a quieter maneuvering setup. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Two Knights Defense",
+        "line": "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6",
+        "idea": "Fast development. White usually decides between d4 and a quieter Italian structure.",
+        "overview": "Fast development. White usually decides between d4 and a quieter Italian structure.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays Bc4, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "Fast development. White usually decides between d4 and a quieter Italian structure. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Evans Gambit",
+        "line": "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3",
+        "idea": "Sacrifice the b-pawn to gain tempi for a powerful center and rapid development.",
+        "overview": "Sacrifice the b-pawn to gain tempi for a powerful center and rapid development.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays Bc4, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black plays Bc5, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "White plays b4, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "Black plays Bb4, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "White plays c3, claiming or challenging central space and defining the pawn structure."
+        ],
+        "whatToRemember": "Sacrifice the b-pawn to gain tempi for a powerful center and rapid development. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Build quickly, keep the king safe, and decide when the centre should open.",
+      "black": "White often aims for c3/d4, while Black develops actively and challenges the centre with ...d5 or piece pressure."
+    }
+  },
+  {
+    "id": "ruy",
+    "name": "Ruy Lopez",
+    "eco": "C60–C99",
+    "family": "1.e4",
+    "difficulty": "Advanced",
+    "summary": "One of the deepest classical openings: pressure on e5 and long-term central play.",
+    "tags": [
+      "e4",
+      "open-game",
+      "classical"
+    ],
+    "lines": [
+      {
+        "name": "Morphy Defense, Closed",
+        "line": "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7",
+        "idea": "White keeps the bishop and prepares a long strategic battle around the center.",
+        "overview": "White keeps the bishop and prepares a long strategic battle around the center.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays Bb5, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black plays a6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays Ba4, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White castles, securing the king and bringing a rook toward the centre.",
+          "Black plays Be7, activating a bishop on a useful diagonal and increasing pressure on a key sector."
+        ],
+        "whatToRemember": "White keeps the bishop and prepares a long strategic battle around the center. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Berlin Defense",
+        "line": "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6",
+        "idea": "Black immediately challenges the e5-pawn and heads for highly resilient structures.",
+        "overview": "Black immediately challenges the e5-pawn and heads for highly resilient structures.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays Bb5, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "Black immediately challenges the e5-pawn and heads for highly resilient structures. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Exchange Variation",
+        "line": "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6",
+        "idea": "White damages Black's pawn structure and aims for the bishop-pair/endgame advantage.",
+        "overview": "White damages Black's pawn structure and aims for the bishop-pair/endgame advantage.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays Bb5, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black plays a6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays Bc6, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black plays dxc6, a pawn capture that changes the central structure and clarifies which files and squares will matter next."
+        ],
+        "whatToRemember": "White damages Black's pawn structure and aims for the bishop-pair/endgame advantage. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Maintain pressure on e5 while preserving the bishop and prepare a long strategic middlegame.",
+      "black": "Black normally completes development, challenges the centre, and uses ...d5 or queenside expansion when the position permits."
+    }
+  },
+  {
+    "id": "scotch",
+    "name": "Scotch Game",
+    "eco": "C44–C45",
+    "family": "1.e4",
+    "difficulty": "Core",
+    "summary": "Immediate central tension. Excellent for learning open-game tactics and initiative.",
+    "tags": [
+      "e4",
+      "open-game",
+      "tactical"
+    ],
+    "lines": [
+      {
+        "name": "Classical",
+        "line": "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4",
+        "idea": "Open the center early and use rapid development to compensate for Black's central exchange.",
+        "overview": "Open the center early and use rapid development to compensate for Black's central exchange.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays exd4, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "White develops the knight with Nd4, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "Open the center early and use rapid development to compensate for Black's central exchange. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Scotch Gambit",
+        "line": "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4",
+        "idea": "Prioritize development and king safety instead of immediately recapturing.",
+        "overview": "Prioritize development and king safety instead of immediately recapturing.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays exd4, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "White plays Bc4, activating a bishop on a useful diagonal and increasing pressure on a key sector."
+        ],
+        "whatToRemember": "Prioritize development and king safety instead of immediately recapturing. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Open the centre early and use development as the compensation for giving Black less time to coordinate.",
+      "black": "Black seeks active piece play and may challenge the centre before White can exploit the lead in development."
+    }
+  },
+  {
+    "id": "vienna",
+    "name": "Vienna Game",
+    "eco": "C25–C29",
+    "family": "1.e4",
+    "difficulty": "Core",
+    "summary": "A flexible e4 opening with aggressive and positional branches.",
+    "tags": [
+      "e4",
+      "open-game",
+      "attacking"
+    ],
+    "lines": [
+      {
+        "name": "Vienna Main Line",
+        "line": "e2e4 e7e5 b1c3 g8f6",
+        "idea": "Develop the knight to c3, support the center, and choose f4 or a quieter setup.",
+        "overview": "Develop the knight to c3, support the center, and choose f4 or a quieter setup.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "Develop the knight to c3, support the center, and choose f4 or a quieter setup. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Vienna Gambit",
+        "line": "e2e4 e7e5 b1c3 g8f6 f2f4",
+        "idea": "Challenge e5 immediately and create attacking chances at the cost of structural risk.",
+        "overview": "Challenge e5 immediately and create attacking chances at the cost of structural risk.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays f4, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "Challenge e5 immediately and create attacking chances at the cost of structural risk. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Keep the option of a direct f4 attack or a central d4 break without committing too early.",
+      "black": "Black should develop efficiently and decide whether to hold the centre or challenge White’s attacking setup."
+    }
+  },
+  {
+    "id": "sicilian",
+    "name": "Sicilian Defense",
+    "eco": "B20–B99",
+    "family": "1.e4",
+    "difficulty": "Core",
+    "summary": "Black fights for the center asymmetrically and accepts a sharp, unbalanced game.",
+    "tags": [
+      "e4",
+      "asymmetrical",
+      "tactical"
+    ],
+    "lines": [
+      {
+        "name": "Open Sicilian",
+        "line": "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4",
+        "idea": "White opens the center; Black accepts structural imbalance for active counterplay.",
+        "overview": "White opens the center; Black accepts structural imbalance for active counterplay.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black plays d6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays cxd4, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "White develops the knight with Nd4, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "White opens the center; Black accepts structural imbalance for active counterplay. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Najdorf",
+        "line": "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6",
+        "idea": "The most famous Sicilian battleground: ...a6 prepares flexible counterplay and controls b5.",
+        "overview": "The most famous Sicilian battleground: ...a6 prepares flexible counterplay and controls b5.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black plays d6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays cxd4, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "White develops the knight with Nd4, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays a6, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "The most famous Sicilian battleground: ...a6 prepares flexible counterplay and controls b5. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Dragon",
+        "line": "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6",
+        "idea": "Black fianchettoes and attacks the queenside while White often attacks the king.",
+        "overview": "Black fianchettoes and attacks the queenside while White often attacks the king.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black plays d6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays cxd4, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "White develops the knight with Nd4, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "Black fianchettoes and attacks the queenside while White often attacks the king. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Sveshnikov",
+        "line": "e2e4 c7c5 g1f3 b8c6 d2d4 c5d4 f3d4 g8f6 b1c3 e7e5",
+        "idea": "Black accepts a structural weakness for activity and control of key central squares.",
+        "overview": "Black accepts a structural weakness for activity and control of key central squares.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays cxd4, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "White develops the knight with Nd4, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure."
+        ],
+        "whatToRemember": "Black accepts a structural weakness for activity and control of key central squares. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Alapin",
+        "line": "e2e4 c7c5 c2c3",
+        "idea": "White avoids the main Sicilian theory and prepares d4 with a broad center.",
+        "overview": "White avoids the main Sicilian theory and prepares d4 with a broad center.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c5, claiming or challenging central space and defining the pawn structure.",
+          "White plays c3, claiming or challenging central space and defining the pawn structure."
+        ],
+        "whatToRemember": "White avoids the main Sicilian theory and prepares d4 with a broad center. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Use the extra central pawn imbalance to create active piece play and attack chances.",
+      "black": "White usually develops rapidly and opens the centre; Black accepts asymmetry and looks for counterplay on the queenside or in the centre."
+    }
+  },
+  {
+    "id": "french",
+    "name": "French Defense",
+    "eco": "C00–C19",
+    "family": "1.e4",
+    "difficulty": "Core",
+    "summary": "Black builds a solid chain and attacks White's center at its base.",
+    "tags": [
+      "e4",
+      "closed-center",
+      "counterattack"
+    ],
+    "lines": [
+      {
+        "name": "Classical",
+        "line": "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6",
+        "idea": "Black develops actively against e4 while maintaining a strong central chain.",
+        "overview": "Black develops actively against e4 while maintaining a strong central chain.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "Black develops actively against e4 while maintaining a strong central chain. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Winawer",
+        "line": "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4",
+        "idea": "Black pins the knight and accepts structural complexity for active play.",
+        "overview": "Black pins the knight and accepts structural complexity for active play.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays Bb4, activating a bishop on a useful diagonal and increasing pressure on a key sector."
+        ],
+        "whatToRemember": "Black pins the knight and accepts structural complexity for active play. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Tarrasch",
+        "line": "e2e4 e7e6 d2d4 d7d5 b1d2",
+        "idea": "White keeps the c-pawn flexible and reduces some of the Winawer's sharpness.",
+        "overview": "White keeps the c-pawn flexible and reduces some of the Winawer's sharpness.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nd2, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "White keeps the c-pawn flexible and reduces some of the Winawer's sharpness. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Advance",
+        "line": "e2e4 e7e6 d2d4 d7d5 e4e5",
+        "idea": "White gains space; Black attacks the pawn chain with ...c5 and ...f6.",
+        "overview": "White gains space; Black attacks the pawn chain with ...c5 and ...f6.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays e5, claiming or challenging central space and defining the pawn structure."
+        ],
+        "whatToRemember": "White gains space; Black attacks the pawn chain with ...c5 and ...f6. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Build a strong centre, then use it as the basis for space and attacking chances.",
+      "black": "Black accepts less space temporarily and attacks the white centre with ...c5 and often ...f6."
+    }
+  },
+  {
+    "id": "caro",
+    "name": "Caro-Kann Defense",
+    "eco": "B10–B19",
+    "family": "1.e4",
+    "difficulty": "Core",
+    "summary": "A resilient defense built around ...c6 and a healthy pawn structure.",
+    "tags": [
+      "e4",
+      "solid",
+      "endgame"
+    ],
+    "lines": [
+      {
+        "name": "Classical",
+        "line": "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 c8f5",
+        "idea": "Black develops the light-squared bishop outside the pawn chain.",
+        "overview": "Black develops the light-squared bishop outside the pawn chain.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c6, claiming or challenging central space and defining the pawn structure.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays dxe4, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "White develops the knight with Ne4, improving central control and adding another active piece.",
+          "Black plays Bf5, activating a bishop on a useful diagonal and increasing pressure on a key sector."
+        ],
+        "whatToRemember": "Black develops the light-squared bishop outside the pawn chain. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Advance",
+        "line": "e2e4 c7c6 d2d4 d7d5 e4e5 c8f5",
+        "idea": "White gains space; Black targets the center with ...e6 and ...c5.",
+        "overview": "White gains space; Black targets the center with ...e6 and ...c5.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c6, claiming or challenging central space and defining the pawn structure.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays e5, claiming or challenging central space and defining the pawn structure.",
+          "Black plays Bf5, activating a bishop on a useful diagonal and increasing pressure on a key sector."
+        ],
+        "whatToRemember": "White gains space; Black targets the center with ...e6 and ...c5. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Exchange",
+        "line": "e2e4 c7c6 d2d4 d7d5 e4d5 c6d5",
+        "idea": "A simpler structure where plans and piece activity matter more than memorization.",
+        "overview": "A simpler structure where plans and piece activity matter more than memorization.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c6, claiming or challenging central space and defining the pawn structure.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays exd5, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "Black plays cxd5, a pawn capture that changes the central structure and clarifies which files and squares will matter next."
+        ],
+        "whatToRemember": "A simpler structure where plans and piece activity matter more than memorization. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Keep a sound pawn structure and develop the light-squared bishop outside the pawn chain.",
+      "black": "Black seeks a solid centre, active minor pieces, and a later ...c5 or ...e5 break."
+    }
+  },
+  {
+    "id": "pirc",
+    "name": "Pirc Defense",
+    "eco": "B07–B09",
+    "family": "1.e4",
+    "difficulty": "Advanced",
+    "summary": "Hypermodern defense: allow the center, then attack it with pieces and pawn breaks.",
+    "tags": [
+      "e4",
+      "hypermodern",
+      "counterattack"
+    ],
+    "lines": [
+      {
+        "name": "Classical",
+        "line": "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6",
+        "idea": "Black fianchettoes and plans ...Bg7, ...O-O, and pressure against the center.",
+        "overview": "Black fianchettoes and plans ...Bg7, ...O-O, and pressure against the center.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "Black fianchettoes and plans ...Bg7, ...O-O, and pressure against the center. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Austrian Attack",
+        "line": "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6 f2f4",
+        "idea": "White builds a huge center and kingside space; Black must strike accurately.",
+        "overview": "White builds a huge center and kingside space; Black must strike accurately.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays f4, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "White builds a huge center and kingside space; Black must strike accurately. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Occupy the centre and use the extra space to build an attack before Black’s counterplay arrives.",
+      "black": "Black allows White a large centre and then undermines it with ...c5, ...e5, piece pressure, and kingside play."
+    }
+  },
+  {
+    "id": "qg",
+    "name": "Queen's Gambit",
+    "eco": "D06–D69",
+    "family": "1.d4",
+    "difficulty": "Core",
+    "summary": "The archetypal 1.d4 opening: pressure the center and use sound development.",
+    "tags": [
+      "d4",
+      "classical",
+      "positional"
+    ],
+    "lines": [
+      {
+        "name": "Queen's Gambit Declined",
+        "line": "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6",
+        "idea": "Black supports d5 with ...e6; White seeks space and pressure.",
+        "overview": "Black supports d5 with ...e6; White seeks space and pressure.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "Black supports d5 with ...e6; White seeks space and pressure. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Slav Defense",
+        "line": "d2d4 d7d5 c2c4 c7c6",
+        "idea": "Black supports d5 without blocking the c8 bishop.",
+        "overview": "Black supports d5 without blocking the c8 bishop.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c6, claiming or challenging central space and defining the pawn structure."
+        ],
+        "whatToRemember": "Black supports d5 without blocking the c8 bishop. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Queen's Gambit Accepted",
+        "line": "d2d4 d7d5 c2c4 d5c4",
+        "idea": "Black takes the pawn temporarily and aims for active development rather than holding it.",
+        "overview": "Black takes the pawn temporarily and aims for active development rather than holding it.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays dxc4, a pawn capture that changes the central structure and clarifies which files and squares will matter next."
+        ],
+        "whatToRemember": "Black takes the pawn temporarily and aims for active development rather than holding it. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Use c4 to challenge Black’s d5-pawn and build a strong central position.",
+      "black": "Black must decide whether to hold d5, reinforce it, or accept the pawn while gaining activity."
+    }
+  },
+  {
+    "id": "nimzo",
+    "name": "Nimzo-Indian Defense",
+    "eco": "E20–E59",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "Black immediately pressures c3 and accepts a bishop-pair trade for structural and central control.",
+    "tags": [
+      "d4",
+      "positional",
+      "hypermodern"
+    ],
+    "lines": [
+      {
+        "name": "Classical",
+        "line": "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4",
+        "idea": "Pin the knight, influence e4, and create structural targets.",
+        "overview": "Pin the knight, influence e4, and create structural targets.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays Bb4, activating a bishop on a useful diagonal and increasing pressure on a key sector."
+        ],
+        "whatToRemember": "Pin the knight, influence e4, and create structural targets. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Rubinstein",
+        "line": "d2d4 g8f6 c2c4 e7e6 b1c3 f8b4 e2e3",
+        "idea": "White supports the center and keeps a flexible position.",
+        "overview": "White supports the center and keeps a flexible position.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays Bb4, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "White plays e3, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "White supports the center and keeps a flexible position. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Use central space while deciding whether to accept structural damage in exchange for the bishop pair and activity.",
+      "black": "Black uses the pin on Nc3 and pressure against the centre to prevent White from building an effortless pawn mass."
+    }
+  },
+  {
+    "id": "qindian",
+    "name": "Queen's Indian Defense",
+    "eco": "E12–E19",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "Black develops harmoniously with ...b6 and ...Bb7 while challenging the center.",
+    "tags": [
+      "d4",
+      "hypermodern",
+      "positional"
+    ],
+    "lines": [
+      {
+        "name": "Main Line",
+        "line": "d2d4 g8f6 c2c4 e7e6 g1f3 b7b6",
+        "idea": "The fianchetto bishop puts pressure on the long diagonal and e4.",
+        "overview": "The fianchetto bishop puts pressure on the long diagonal and e4.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black plays b6, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "The fianchetto bishop puts pressure on the long diagonal and e4. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Develop harmoniously and use the centre without exposing the king.",
+      "black": "Black fianchettoes the queen’s bishop and pressures d4 from the flank."
+    }
+  },
+  {
+    "id": "kingsindian",
+    "name": "King's Indian Defense",
+    "eco": "E60–E99",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "Black allows White space, then attacks the center and often launches a kingside attack.",
+    "tags": [
+      "d4",
+      "fianchetto",
+      "attacking"
+    ],
+    "lines": [
+      {
+        "name": "Classical",
+        "line": "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6",
+        "idea": "Black prepares ...O-O and a central/queenside counterattack against White's space.",
+        "overview": "Black prepares ...O-O and a central/queenside counterattack against White's space.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays Bg7, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d6, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "Black prepares ...O-O and a central/queenside counterattack against White's space. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Sämisch",
+        "line": "d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6 f2f3",
+        "idea": "White builds a strong center and kingside; Black seeks counterplay.",
+        "overview": "White builds a strong center and kingside; Black seeks counterplay.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays Bg7, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "White plays e4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays f3, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "White builds a strong center and kingside; Black seeks counterplay. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Build a broad centre and use it as the launchpad for kingside or central expansion.",
+      "black": "Black fianchettoes, allows space, and then attacks the centre with ...e5 or ...c5 before launching kingside play."
+    }
+  },
+  {
+    "id": "grunfeld",
+    "name": "Grünfeld Defense",
+    "eco": "D70–D99",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "Black invites a large center and attacks it from a distance with pieces.",
+    "tags": [
+      "d4",
+      "hypermodern",
+      "tactical"
+    ],
+    "lines": [
+      {
+        "name": "Exchange",
+        "line": "d2d4 g8f6 c2c4 g7g6 b1c3 d7d5 c4d5 f6d5 e2e4",
+        "idea": "White establishes a huge center; Black uses piece activity and pressure against it.",
+        "overview": "White establishes a huge center; Black uses piece activity and pressure against it.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays cxd5, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "Black develops the knight with Nd5, improving central control and adding another active piece.",
+          "White plays e4, claiming or challenging central space and defining the pawn structure."
+        ],
+        "whatToRemember": "White establishes a huge center; Black uses piece activity and pressure against it. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Build a large centre and be ready to support it with pieces and pawn advances.",
+      "black": "Black deliberately attacks the centre from the flank instead of mirroring it, seeking activity as compensation for space."
+    }
+  },
+  {
+    "id": "slav",
+    "name": "Slav Defense",
+    "eco": "D10–D19",
+    "family": "1.d4",
+    "difficulty": "Core",
+    "summary": "Solid Queen's Gambit defense that keeps the c8 bishop free.",
+    "tags": [
+      "d4",
+      "solid",
+      "positional"
+    ],
+    "lines": [
+      {
+        "name": "Main Line",
+        "line": "d2d4 d7d5 c2c4 c7c6 g1f3 g8f6",
+        "idea": "A sturdy structure with flexible development and counterplay.",
+        "overview": "A sturdy structure with flexible development and counterplay.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c6, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "A sturdy structure with flexible development and counterplay. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Semi-Slav",
+        "line": "d2d4 d7d5 c2c4 e7e6 g1f3 g8f6",
+        "idea": "Black combines the Queen's Gambit structure with ...c6 and dynamic central play.",
+        "overview": "Black combines the Queen's Gambit structure with ...c6 and dynamic central play.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "Black combines the Queen's Gambit structure with ...c6 and dynamic central play. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Challenge d5 while keeping the c1 bishop active and the centre flexible.",
+      "black": "Black supports d5 with ...c6 and aims for active development without the light-squared bishop being trapped."
+    }
+  },
+  {
+    "id": "benoni",
+    "name": "Modern Benoni",
+    "eco": "A60–A79",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "Black accepts a structural weakness for active piece play and queenside counterplay.",
+    "tags": [
+      "d4",
+      "asymmetrical",
+      "tactical"
+    ],
+    "lines": [
+      {
+        "name": "Modern Benoni",
+        "line": "d2d4 g8f6 c2c4 c7c5 d4d5 e7e6 b1c3 e6d5 c4d5 d7d6",
+        "idea": "Black attacks White's center and seeks active play on the queenside and dark squares.",
+        "overview": "Black attacks White's center and seeks active play on the queenside and dark squares.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c5, claiming or challenging central space and defining the pawn structure.",
+          "White plays d5, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays exd5, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "White plays cxd5, a pawn capture that changes the central structure and clarifies which files and squares will matter next.",
+          "Black plays d6, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "Black attacks White's center and seeks active play on the queenside and dark squares. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Use the space advantage and the closed centre to build a stable queenside/central position.",
+      "black": "Black accepts a structural weakness in return for active piece play and queenside counterplay."
+    }
+  },
+  {
+    "id": "dutch",
+    "name": "Dutch Defense",
+    "eco": "A80–A99",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "Black immediately fights for e4 and creates an unbalanced kingside structure.",
+    "tags": [
+      "d4",
+      "asymmetrical",
+      "attacking"
+    ],
+    "lines": [
+      {
+        "name": "Classical Dutch",
+        "line": "d2d4 f7f5 c2c4 g8f6 b1c3 e7e6",
+        "idea": "Black fights for e4 and prepares development with ...Be7 and ...O-O.",
+        "overview": "Black fights for e4 and prepares development with ...Be7 and ...O-O.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays f5, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "Black fights for e4 and prepares development with ...Be7 and ...O-O. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Leningrad",
+        "line": "d2d4 f7f5 c2c4 g8f6 g2g3 g7g6 f1g2 f8g7",
+        "idea": "Fianchetto both sides and create a sharp fight around the center.",
+        "overview": "Fianchetto both sides and create a sharp fight around the center.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays f5, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays g3, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays Bg2, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black plays Bg7, activating a bishop on a useful diagonal and increasing pressure on a key sector."
+        ],
+        "whatToRemember": "Fianchetto both sides and create a sharp fight around the center. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Take central space and use flexible development to exploit Black’s early kingside commitment.",
+      "black": "Black fights for e4 immediately and seeks active kingside play rather than a symmetrical centre."
+    }
+  },
+  {
+    "id": "english",
+    "name": "English Opening",
+    "eco": "A10–A39",
+    "family": "1.c4",
+    "difficulty": "Core",
+    "summary": "A flexible flank opening that can transpose into many 1.d4 structures.",
+    "tags": [
+      "c4",
+      "flank",
+      "positional"
+    ],
+    "lines": [
+      {
+        "name": "Symmetrical",
+        "line": "c2c4 c7c5 b1c3 b8c6 g2g3 g7g6",
+        "idea": "Both sides fianchetto and maneuver; understanding structures matters more than memorization.",
+        "overview": "Both sides fianchetto and maneuver; understanding structures matters more than memorization.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays c5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black develops the knight with Nc6, improving central control and adding another active piece.",
+          "White plays g3, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "Both sides fianchetto and maneuver; understanding structures matters more than memorization. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      },
+      {
+        "name": "Reversed Sicilian",
+        "line": "c2c4 e7e5 b1c3 g8f6",
+        "idea": "White gets a Sicilian-like structure with an extra tempo.",
+        "overview": "White gets a Sicilian-like structure with an extra tempo.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays c4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays e5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nc3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece."
+        ],
+        "whatToRemember": "White gets a Sicilian-like structure with an extra tempo. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Control the centre from the flank and keep multiple transpositions available.",
+      "black": "Black must decide whether to mirror White, occupy the centre directly, or create a reversed-Sicilian structure."
+    }
+  },
+  {
+    "id": "reti",
+    "name": "Réti Opening",
+    "eco": "A04–A09",
+    "family": "1.Nf3",
+    "difficulty": "Advanced",
+    "summary": "Flexible hypermodern development with many transpositions into 1.d4 and 1.c4 structures.",
+    "tags": [
+      "nf3",
+      "hypermodern",
+      "transpositional"
+    ],
+    "lines": [
+      {
+        "name": "King's Indian Attack Setup",
+        "line": "g1f3 g8f6 g2g3 g7g6 f1g2 f8g7",
+        "idea": "Develop without committing the center, then choose c4, d4, or e4 based on Black's setup.",
+        "overview": "Develop without committing the center, then choose c4, d4, or e4 based on Black's setup.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays g3, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "Black plays g6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays Bg2, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black plays Bg7, activating a bishop on a useful diagonal and increasing pressure on a key sector."
+        ],
+        "whatToRemember": "Develop without committing the center, then choose c4, d4, or e4 based on Black's setup. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Delay the central pawn commitment, fianchetto, and attack the centre from the flanks.",
+      "black": "Black usually occupies the centre while White prepares to undermine it later."
+    }
+  },
+  {
+    "id": "london",
+    "name": "London System",
+    "eco": "D02–D05",
+    "family": "1.d4",
+    "difficulty": "Core",
+    "summary": "A repeatable system centered on Bf4, Nf3, e3, and a stable dark-square setup.",
+    "tags": [
+      "d4",
+      "system",
+      "solid"
+    ],
+    "lines": [
+      {
+        "name": "Standard Setup",
+        "line": "d2d4 d7d5 g1f3 g8f6 c1f4 e7e6 e2e3",
+        "idea": "A reliable structure: develop, castle, and choose c4 or c3 depending on Black's setup.",
+        "overview": "A reliable structure: develop, castle, and choose c4 or c3 depending on Black's setup.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "White plays d4, claiming or challenging central space and defining the pawn structure.",
+          "Black plays d5, claiming or challenging central space and defining the pawn structure.",
+          "White develops the knight with Nf3, improving central control and adding another active piece.",
+          "Black develops the knight with Nf6, improving central control and adding another active piece.",
+          "White plays Bf4, activating a bishop on a useful diagonal and increasing pressure on a key sector.",
+          "Black plays e6, gaining useful space or preparing a pawn break while keeping the position flexible.",
+          "White plays e3, gaining useful space or preparing a pawn break while keeping the position flexible."
+        ],
+        "whatToRemember": "A reliable structure: develop, castle, and choose c4 or c3 depending on Black's setup. The important skill is to recognise the resulting position and its plan rather than memorising moves in isolation.",
+        "commonMistakes": [
+          "Playing the next move from memory without checking what the opponent just changed.",
+          "Developing a piece mechanically instead of asking which central break or king-safety problem the position demands."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Develop the light-squared bishop before ...e6 and build a compact structure that is easy to play.",
+      "black": "Black should challenge White’s centre and avoid allowing the London setup to become completely free of counterplay."
+    }
+  },
+  {
+    "id": "petrov",
+    "name": "Petrov Defense",
+    "eco": "C42–C43",
+    "family": "1.e4",
+    "difficulty": "Advanced",
+    "summary": "A solid response to 1.e4 that challenges White’s central knight immediately and often leads to symmetrical structures.",
+    "tags": [
+      "e4",
+      "solid",
+      "classical"
+    ],
+    "lines": [
+      {
+        "name": "Classical",
+        "line": "e2e4 e7e5 g1f3 g8f6 f3e5",
+        "idea": "Black mirrors White in the centre and immediately attacks the knight, aiming for active equality rather than passive defence.",
+        "overview": "Black mirrors White in the centre and immediately attacks the knight, aiming for active equality rather than passive defence.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims central space and opens the bishops.",
+          "...e5 mirrors the central claim and prepares rapid development.",
+          "2.Nf3 develops with tempo against e5.",
+          "...Nf6 attacks the knight on e4’s support square and challenges White’s central knight immediately.",
+          "3.Nxe5 accepts the central pawn, entering the Petrov’s tactical phase where Black seeks active piece play and recovery of the pawn."
+        ],
+        "whatToRemember": "Black mirrors White in the centre and immediately attacks the knight, aiming for active equality rather than passive defence. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Modern",
+        "line": "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6",
+        "idea": "Black uses ...d6 to challenge the advanced knight and prepare to recover the pawn while keeping the structure compact.",
+        "overview": "Black uses ...d6 to challenge the advanced knight and prepare to recover the pawn while keeping the structure compact.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims the centre.",
+          "...e5 establishes a direct central foothold.",
+          "2.Nf3 develops and attacks e5.",
+          "...Nf6 challenges White’s knight and reduces the chance of a free attacking setup.",
+          "3.Nxe5 takes e5 and temporarily wins a pawn.",
+          "...d6 attacks the knight and prepares Black to regain the pawn while gaining central stability."
+        ],
+        "whatToRemember": "Black uses ...d6 to challenge the advanced knight and prepare to recover the pawn while keeping the structure compact. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Develop rapidly and use the symmetrical centre to neutralise White’s initiative.",
+      "black": "Challenge White’s central knight and rely on active piece play to regain any pawn taken."
+    }
+  },
+  {
+    "id": "scandinavian",
+    "name": "Scandinavian Defense",
+    "eco": "B01",
+    "family": "1.e4",
+    "difficulty": "Core",
+    "summary": "Black challenges the e4-pawn immediately, accepting an early queen move in exchange for a clear central structure.",
+    "tags": [
+      "e4",
+      "counterattack",
+      "solid"
+    ],
+    "lines": [
+      {
+        "name": "Main Line",
+        "line": "e2e4 d7d5 e4d5 d8d5 b1c3",
+        "idea": "Black strikes the centre at once and recaptures with the queen; White gains development while Black relies on a sound structure and active queen retreat.",
+        "overview": "Black strikes the centre at once and recaptures with the queen; White gains development while Black relies on a sound structure and active queen retreat.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims the centre.",
+          "...d5 immediately challenges e4 instead of waiting for White to build a larger centre.",
+          "2.exd5 accepts the central exchange and removes Black’s d-pawn.",
+          "...Qxd5 restores material but exposes the queen to tempo-gaining development.",
+          "3.Nc3 develops with tempo against the queen, giving White a lead in development as the main compensation."
+        ],
+        "whatToRemember": "Black strikes the centre at once and recaptures with the queen; White gains development while Black relies on a sound structure and active queen retreat. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Portuguese Gambit",
+        "line": "e2e4 d7d5 e4d5 g8f6",
+        "idea": "Black gambits the pawn after the Scandinavian exchange to gain rapid development and attacking chances against the white king.",
+        "overview": "Black gambits the pawn after the Scandinavian exchange to gain rapid development and attacking chances against the white king.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims central space.",
+          "...d5 attacks the e4-pawn immediately.",
+          "2.exd5 removes Black’s central pawn.",
+          "...Nf6 develops rapidly instead of recapturing at once, offering a pawn for initiative and pressure."
+        ],
+        "whatToRemember": "Black gambits the pawn after the Scandinavian exchange to gain rapid development and attacking chances against the white king. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Use the development lead created by chasing Black’s queen and maintain the extra space.",
+      "black": "Accept the early queen exposure in exchange for a clear central structure and quick development."
+    }
+  },
+  {
+    "id": "alehkine",
+    "name": "Alekhine Defense",
+    "eco": "B02–B05",
+    "family": "1.e4",
+    "difficulty": "Advanced",
+    "summary": "Black invites White to advance the e-pawn, then attacks the overextended centre with pieces and pawn breaks.",
+    "tags": [
+      "e4",
+      "counterattack",
+      "dynamic"
+    ],
+    "lines": [
+      {
+        "name": "Modern",
+        "line": "e2e4 g8f6 e4e5 f6d5 d2d4",
+        "idea": "Black provokes e5, then targets the advanced pawn chain while White uses the space to build a broad centre.",
+        "overview": "Black provokes e5, then targets the advanced pawn chain while White uses the space to build a broad centre.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims central space.",
+          "...Nf6 attacks e4 immediately and invites White to gain space.",
+          "2.e5 advances the pawn and gains territory, but commits White to a larger centre that can become a target.",
+          "...Nd5 retreats the knight to a central square where it can pressure e5 and prepare counterplay.",
+          "3.d4 reinforces the e5 pawn and builds a strong centre, giving Black a clear target for ...d6 and piece pressure."
+        ],
+        "whatToRemember": "Black provokes e5, then targets the advanced pawn chain while White uses the space to build a broad centre. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Four Pawns Attack",
+        "line": "e2e4 g8f6 e4e5 f6d5 d2d4 d7d6 c2c4",
+        "idea": "White builds an enormous pawn centre; Black accepts the space deficit and aims to undermine it before the pieces become passive.",
+        "overview": "White builds an enormous pawn centre; Black accepts the space deficit and aims to undermine it before the pieces become passive.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims space.",
+          "...Nf6 immediately attacks e4 and begins the Alekhine strategy of provoking an advance.",
+          "2.e5 gains space and restricts the knight.",
+          "...Nd5 keeps the knight active while attacking the centre from close range.",
+          "3.d4 reinforces e5 and adds central control.",
+          "...d6 attacks the e5 pawn and begins the main counterattack against White’s centre.",
+          "4.c4 adds another pawn to the centre, creating the Four Pawns structure but also giving Black more targets."
+        ],
+        "whatToRemember": "White builds an enormous pawn centre; Black accepts the space deficit and aims to undermine it before the pieces become passive. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Build a large centre, but be ready to consolidate it rather than overextend.",
+      "black": "Provoke pawn advances, then attack the advanced centre with pieces and pawn breaks."
+    }
+  },
+  {
+    "id": "fourknights",
+    "name": "Four Knights Game",
+    "eco": "C46–C49",
+    "family": "1.e4",
+    "difficulty": "Core",
+    "summary": "Both sides develop naturally, creating a balanced position with several transpositions into sharper open-game structures.",
+    "tags": [
+      "e4",
+      "classical",
+      "development"
+    ],
+    "lines": [
+      {
+        "name": "Spanish Four Knights",
+        "line": "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5",
+        "idea": "White completes rapid development and adds Ruy Lopez-style pressure without committing to a single pawn structure yet.",
+        "overview": "White completes rapid development and adds Ruy Lopez-style pressure without committing to a single pawn structure yet.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims the centre.",
+          "...e5 mirrors the centre.",
+          "2.Nf3 develops and attacks e5.",
+          "...Nc6 defends e5 and develops.",
+          "3.Nc3 adds another central defender and prepares flexible central breaks.",
+          "...Nf6 develops and challenges e4.",
+          "4.Bb5 increases pressure on the c6-knight and indirectly on e5."
+        ],
+        "whatToRemember": "White completes rapid development and adds Ruy Lopez-style pressure without committing to a single pawn structure yet. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Scotch Four Knights",
+        "line": "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4",
+        "idea": "White uses the four-knight setup to launch the Scotch central break once development is underway.",
+        "overview": "White uses the four-knight setup to launch the Scotch central break once development is underway.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims central space.",
+          "...e5 establishes Black’s foothold.",
+          "2.Nf3 develops with tempo.",
+          "...Nc6 develops and defends e5.",
+          "3.Nc3 reinforces the centre and prepares d4.",
+          "...Nf6 develops and attacks e4.",
+          "4.d4 strikes the centre, opening lines before Black can settle completely."
+        ],
+        "whatToRemember": "White uses the four-knight setup to launch the Scotch central break once development is underway. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Develop naturally and choose the right central break once the pieces are coordinated.",
+      "black": "Match development, keep the centre flexible, and use timely ...d5 or exchanges to equalise."
+    }
+  },
+  {
+    "id": "kingsgambit",
+    "name": "King's Gambit",
+    "eco": "C30–C39",
+    "family": "1.e4",
+    "difficulty": "Advanced",
+    "summary": "White offers the f-pawn to pull Black’s e-pawn away and gain rapid development and attacking lines.",
+    "tags": [
+      "e4",
+      "gambit",
+      "attacking"
+    ],
+    "lines": [
+      {
+        "name": "Accepted",
+        "line": "e2e4 e7e5 f2f4 e5f4",
+        "idea": "White sacrifices a pawn to open the f-file and accelerate development toward the black king.",
+        "overview": "White sacrifices a pawn to open the f-file and accelerate development toward the black king.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims the centre.",
+          "...e5 mirrors the central claim.",
+          "2.f4 offers the f-pawn to undermine e5 and open attacking lines.",
+          "...exf4 accepts the gambit and tests whether White can convert development into compensation."
+        ],
+        "whatToRemember": "White sacrifices a pawn to open the f-file and accelerate development toward the black king. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Declined",
+        "line": "e2e4 e7e5 f2f4 f8c5",
+        "idea": "Black declines the pawn and develops actively, keeping the king safer while challenging White to justify the weakened kingside.",
+        "overview": "Black declines the pawn and develops actively, keeping the king safer while challenging White to justify the weakened kingside.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.e4 claims central space.",
+          "...e5 establishes Black’s centre.",
+          "2.f4 offers the gambit and challenges e5.",
+          "...Bc5 declines the pawn while developing with tempo-like pressure toward the white king."
+        ],
+        "whatToRemember": "Black declines the pawn and develops actively, keeping the king safer while challenging White to justify the weakened kingside. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Use the sacrificed pawn to gain tempi, open lines, and attack before Black consolidates.",
+      "black": "Decide whether to accept the pawn and endure pressure or decline it while completing development safely."
+    }
+  },
+  {
+    "id": "catalan",
+    "name": "Catalan Opening",
+    "eco": "E06–E09",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "A Queen’s Gambit structure combined with a long-diagonal fianchetto, giving White pressure and durable positional compensation.",
+    "tags": [
+      "d4",
+      "fianchetto",
+      "positional"
+    ],
+    "lines": [
+      {
+        "name": "Open Catalan",
+        "line": "d2d4 g8f6 c2c4 e7e6 g2g3 d7d5 f1g2",
+        "idea": "White combines central control with a fianchetto bishop that pressures the long diagonal and often the d5 pawn.",
+        "overview": "White combines central control with a fianchetto bishop that pressures the long diagonal and often the d5 pawn.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims central space.",
+          "...Nf6 develops and controls e4.",
+          "2.c4 expands White’s central influence.",
+          "...e6 prepares ...d5 and opens the f8 bishop.",
+          "3.g3 prepares the king’s bishop fianchetto.",
+          "...d5 establishes a solid central pawn.",
+          "4.Bg2 completes the fianchetto and places long-term pressure on the centre."
+        ],
+        "whatToRemember": "White combines central control with a fianchetto bishop that pressures the long diagonal and often the d5 pawn. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Closed Catalan",
+        "line": "d2d4 g8f6 c2c4 e7e6 g2g3 f8e7 f1g2",
+        "idea": "Black keeps the centre closed and develops safely while White relies on long-term pressure rather than an immediate tactical confrontation.",
+        "overview": "Black keeps the centre closed and develops safely while White relies on long-term pressure rather than an immediate tactical confrontation.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims space.",
+          "...Nf6 develops and controls e4.",
+          "2.c4 builds central control.",
+          "...e6 supports a future ...d5 and opens the dark-squared bishop.",
+          "3.g3 prepares White’s fianchetto.",
+          "...Be7 develops safely and prepares castling.",
+          "4.Bg2 activates the bishop on the long diagonal."
+        ],
+        "whatToRemember": "Black keeps the centre closed and develops safely while White relies on long-term pressure rather than an immediate tactical confrontation. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Combine the Queen’s Gambit centre with long-diagonal pressure from Bg2.",
+      "black": "Defend the centre while reducing the Catalan bishop’s influence and seeking active central breaks."
+    }
+  },
+  {
+    "id": "tarrasch",
+    "name": "Tarrasch Defense",
+    "eco": "D32–D34",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "Black accepts an isolated-queen-pawn risk in exchange for active pieces and freedom in the centre.",
+    "tags": [
+      "d4",
+      "active",
+      "iqp"
+    ],
+    "lines": [
+      {
+        "name": "Tarrasch",
+        "line": "d2d4 d7d5 c2c4 e7e6 b1c3 c7c5",
+        "idea": "Black challenges the Queen’s Gambit with an immediate ...c5, seeking active piece play even if an isolated pawn can arise later.",
+        "overview": "Black challenges the Queen’s Gambit with an immediate ...c5, seeking active piece play even if an isolated pawn can arise later.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims the centre.",
+          "...d5 establishes Black’s central foothold.",
+          "2.c4 challenges d5.",
+          "...e6 reinforces d5 and opens the f8 bishop.",
+          "3.Nc3 develops and supports the centre.",
+          "...c5 attacks White’s d4 pawn and creates immediate central tension."
+        ],
+        "whatToRemember": "Black challenges the Queen’s Gambit with an immediate ...c5, seeking active piece play even if an isolated pawn can arise later. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Semi-Tarrasch",
+        "line": "d2d4 d7d5 c2c4 e7e6 g1f3 g8f6 b1c3 c5",
+        "idea": "Black keeps the Tarrasch counterattack while developing first, aiming for an active structure with timely ...c5.",
+        "overview": "Black keeps the Tarrasch counterattack while developing first, aiming for an active structure with timely ...c5.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims central space.",
+          "...d5 establishes the centre.",
+          "2.c4 challenges d5.",
+          "...e6 supports d5 and prepares development.",
+          "3.Nf3 develops toward the centre.",
+          "...Nf6 attacks e4 and develops.",
+          "4.Nc3 reinforces the centre.",
+          "...c5 finally strikes at d4, completing the active Tarrasch setup."
+        ],
+        "whatToRemember": "Black keeps the Tarrasch counterattack while developing first, aiming for an active structure with timely ...c5. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Use central space while accepting that an isolated pawn may become a long-term factor.",
+      "black": "Challenge White’s centre early and value activity and piece freedom over a perfectly healthy pawn structure."
+    }
+  },
+  {
+    "id": "benko",
+    "name": "Benko Gambit",
+    "eco": "A57–A59",
+    "family": "1.d4",
+    "difficulty": "Advanced",
+    "summary": "Black sacrifices a pawn for lasting pressure on the queenside files and dark-square weaknesses.",
+    "tags": [
+      "d4",
+      "gambit",
+      "queenside"
+    ],
+    "lines": [
+      {
+        "name": "Accepted",
+        "line": "d2d4 g8f6 c2c4 c7c5 d4d5 b7b5 c4b5 a7a6 b5a6",
+        "idea": "Black gives up a pawn to open the a- and b-files and create long-term queenside pressure.",
+        "overview": "Black gives up a pawn to open the a- and b-files and create long-term queenside pressure.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims the centre.",
+          "...Nf6 develops and controls e4.",
+          "2.c4 expands White’s centre.",
+          "...c5 attacks d4 from the flank.",
+          "3.d5 gains space and closes the centre.",
+          "...b5 immediately offers the queenside pawn sacrifice.",
+          "4.cxb5 accepts and removes the advanced pawn.",
+          "...a6 attacks the b5 pawn and keeps the gambit alive.",
+          "5.bxa6 takes another pawn, allowing Black to use the open files and active bishops as compensation."
+        ],
+        "whatToRemember": "Black gives up a pawn to open the a- and b-files and create long-term queenside pressure. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Accept the pawn only if you can consolidate; otherwise the open files give Black lasting activity.",
+      "black": "Use the sacrificed pawn to open the a- and b-files and generate queenside pressure for a long time."
+    }
+  },
+  {
+    "id": "trompowsky",
+    "name": "Trompowsky Attack",
+    "eco": "A45",
+    "family": "1.d4",
+    "difficulty": "Core",
+    "summary": "White avoids heavy Indian theory by developing the bishop to g5 early and creating immediate structural or positional questions.",
+    "tags": [
+      "d4",
+      "anti-theory",
+      "bishop"
+    ],
+    "lines": [
+      {
+        "name": "Main Line",
+        "line": "d2d4 g8f6 c1g5",
+        "idea": "White develops the bishop before committing to c4 or Nf3 and can use the pin to influence Black’s centre.",
+        "overview": "White develops the bishop before committing to c4 or Nf3 and can use the pin to influence Black’s centre.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims central space.",
+          "...Nf6 develops and controls e4.",
+          "2.Bg5 develops actively, pins the knight to the queen/king relationship, and prepares flexible follow-ups."
+        ],
+        "whatToRemember": "White develops the bishop before committing to c4 or Nf3 and can use the pin to influence Black’s centre. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Two Bishops",
+        "line": "d2d4 g8f6 c1g5 f6e4 g5f4",
+        "idea": "Black immediately challenges the bishop while White preserves the bishop pair and keeps the position flexible.",
+        "overview": "Black immediately challenges the bishop while White preserves the bishop pair and keeps the position flexible.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims space.",
+          "...Nf6 develops and controls e4.",
+          "2.Bg5 creates immediate pressure on the knight.",
+          "...Ne4 centralizes the knight and attacks the bishop, questioning whether the pin has real value.",
+          "3.Bf4 preserves the bishop on a useful diagonal and prepares development."
+        ],
+        "whatToRemember": "Black immediately challenges the bishop while White preserves the bishop pair and keeps the position flexible. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Develop the bishop early and use the pin or bishop pair to sidestep heavy theory.",
+      "black": "Challenge the bishop and use active development to prevent White from getting a free attacking setup."
+    }
+  },
+  {
+    "id": "colle",
+    "name": "Colle System",
+    "eco": "D04–D05",
+    "family": "1.d4",
+    "difficulty": "Core",
+    "summary": "A compact d4 system built around Nf3, e3 and a later e4 break, prioritising a clear plan over early tactical theory.",
+    "tags": [
+      "d4",
+      "system",
+      "positional"
+    ],
+    "lines": [
+      {
+        "name": "Zukertort Setup",
+        "line": "d2d4 d7d5 g1f3 g8f6 e2e3 e7e6 f1d3",
+        "idea": "White builds a compact centre and develops the dark-squared bishop before seeking the e4 break.",
+        "overview": "White builds a compact centre and develops the dark-squared bishop before seeking the e4 break.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims central space.",
+          "...d5 mirrors the centre.",
+          "2.Nf3 develops and supports d4.",
+          "...Nf6 develops and controls e4.",
+          "3.e3 supports d4 and opens the f1 bishop.",
+          "...e6 reinforces d5 and prepares solid development.",
+          "4.Bd3 develops actively and points toward the kingside, often supporting e4 and kingside castling."
+        ],
+        "whatToRemember": "White builds a compact centre and develops the dark-squared bishop before seeking the e4 break. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      },
+      {
+        "name": "Classical Colle",
+        "line": "d2d4 d7d5 g1f3 g8f6 e2e3 e7e6 f1d3 c7c5",
+        "idea": "Black challenges the Colle centre with ...c5 before White can execute the ideal e4 break.",
+        "overview": "Black challenges the Colle centre with ...c5 before White can execute the ideal e4 break.",
+        "studyFocus": [
+          "Move purpose",
+          "Typical plan",
+          "Tactical/structural consequence"
+        ],
+        "moveNotes": [
+          "1.d4 claims space.",
+          "...d5 establishes the centre.",
+          "2.Nf3 develops and supports d4.",
+          "...Nf6 develops and controls e4.",
+          "3.e3 keeps the structure compact and opens the f1 bishop.",
+          "...e6 supports d5.",
+          "4.Bd3 develops toward the kingside and prepares castling.",
+          "...c5 challenges d4 and prevents White from playing a completely free e4 break."
+        ],
+        "whatToRemember": "Black challenges the Colle centre with ...c5 before White can execute the ideal e4 break. Recognise the resulting structure and plan rather than memorising the sequence alone.",
+        "commonMistakes": [
+          "Following the move order without checking the opponent’s last move.",
+          "Ignoring the pawn breaks and piece-development goals that give the opening its character."
+        ]
+      }
+    ],
+    "strategy": {
+      "white": "Build a compact centre and aim for e4 when development and tactics allow it.",
+      "black": "Challenge the centre with ...c5 or ...e5 before White gets the ideal Colle structure."
+    }
+  }
+]
